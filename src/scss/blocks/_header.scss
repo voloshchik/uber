@@ -1,6 +1,7 @@
 nav {
   background-color: #212121;
   height: 50px;
+
   .menu {
     display: flex;
     justify-content: space-between;
@@ -16,5 +17,42 @@ nav {
       border-right: 2px dotted black;
       padding-right: 28px;
     }
+  }
+}
+
+.subheader {
+  height: 84px;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  &_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+  }
+  &_official {
+    margin-top: 6px;
+    font-size: 13px;
+    opacity: 0.5;
+    font-weight: 100;
+    color: #ffffff;
+  }
+
+  &_call {
+    font-size: 12px;
+
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 19px;
+    text-align: right;
+  }
+
+  &_phone {
+    font-size: 22px;
+
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: right;
+    line-height: 24px;
   }
 }
