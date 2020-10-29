@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @import './bootstrap-grid.min.css';
 @import 'blocks/promo';
+@import 'base/variables';
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -10,3 +11,5 @@ body {
 @import 'blocks/buttons';
 @import 'blocks/reasons';
 @import 'blocks/mobile';
+@import 'blocks/choise';
+@import 'blocks/require';

@@ -1,3 +1,10 @@
+@mixin btn_hover {
+  &:hover {
+    background-image: none;
+    background-color: $main-color;
+  }
+}
+
 .button {
   background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
   box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.2);
@@ -7,6 +14,7 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #ffffff;
+  @include btn_hover();
   &_main {
     margin-top: 19px;
     width: 178px;

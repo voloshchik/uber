@@ -52,6 +52,31 @@
       margin: 0 auto;
       border-radius: 100%;
       cursor: pointer;
+      &::before {
+        content: '';
+        transition: 0.3s all;
+        display: block;
+        width: 14px;
+        height: 2px;
+        background-color: $main-color;
+      }
+      &::after {
+        content: '';
+        transition: 0.3s all;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 2px;
+        height: 14px;
+        background-color: $main-color;
+      }
+      &:hover {
+        &::before,
+        &::after {
+          background-color: $second-color;
+        }
+      }
     }
   }
 }
