@@ -19,6 +19,9 @@
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+  &_white {
+    color: #fff;
+  }
 }
 
 .subtitle {
