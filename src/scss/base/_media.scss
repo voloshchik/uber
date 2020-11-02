@@ -1,0 +1,25 @@
+@media (max-width: 1200px) {
+  .menu {
+    &_item {
+      padding-right: 20px;
+    }
+    &_link {
+      font-size: 13px;
+    }
+  }
+
+  .promo {
+    &__header {
+      font-size: 50px;
+    }
+  }
+
+  .reasons {
+    &_block {
+      align-items: start;
+    }
+    .reasons_descr {
+      width: 300px;
+    }
+  }
+}

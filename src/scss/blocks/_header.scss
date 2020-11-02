@@ -5,21 +5,24 @@ header {
 nav {
   background-color: #212121;
   height: 50px;
+}
 
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    padding: 13px 70px;
-    margin: 0;
-    list-style: none;
-    &_link {
-      color: #ffffff;
-      font-size: 15px;
-      font-weight: 300;
-    }
-    &_item {
-      border-right: 2px dotted black;
-      padding-right: 28px;
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style: none;
+  &_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  &_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+    &:last-child {
+      border-right: none;
     }
   }
 }
@@ -54,12 +57,17 @@ nav {
   }
 
   &_phone {
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
     font-size: 22px;
-
     font-weight: 400;
     text-transform: uppercase;
-    color: #ffffff;
     text-align: right;
-    line-height: 24px;
+    line-height: 12px;
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
   }
 }
