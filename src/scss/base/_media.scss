@@ -163,4 +163,61 @@
       margin-top: 10px;
     }
   }
+  .promo {
+    &__header {
+      line-height: 45px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .subheader {
+    &_official {
+      display: none;
+    }
+    &_logo {
+      margin-top: 27px;
+    }
+    &_phone {
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+  }
+
+  .button {
+    &_main {
+      width: 110px;
+      height: 22px;
+      font-size: 10px;
+    }
+  }
+
+  .button {
+    &_larg {
+      width: 210px;
+      height: 50px;
+      font-size: 10px;
+      margin-top: 70px;
+    }
+  }
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+    &__descr {
+      display: none;
+    }
+    &__header {
+      font-size: 25px;
+      padding: 0 24px;
+      line-height: 35px;
+    }
+    &__subheader {
+      font-size: 18px;
+      margin-top: 33px;
+      line-height: 30px;
+      padding: 0 5px;
+    }
+  }
 }
