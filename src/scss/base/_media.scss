@@ -220,4 +220,37 @@
       padding: 0 5px;
     }
   }
+  .menu {
+    width: 85%;
+    &_item {
+      width: 100%;
+      text-align: center;
+      padding: 5px 0;
+    }
+    &_link {
+      display: block;
+    }
+  }
+
+  .reasons {
+    padding: 22px 0 36px 0;
+    &_block {
+      margin-top: 26px;
+    }
+    &_round {
+      width: 100px;
+      height: 100px;
+    }
+    &_descr {
+      width: 100%;
+      margin-top: 27px;
+    }
+    &_subtitle {
+      font-size: 16px;
+      text-align: left;
+    }
+    &_text {
+      margin-top: 0;
+    }
+  }
 }
